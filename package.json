@@ -1,10 +1,21 @@
 {
-  "name": "vue-img",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue-image-component",
+  "author": "Sascha Steinbrink",
+  "license": "MIT",
+  "version": "0.3.0",
+  "description": "A Vue component to lazy load and display images",
+  "main": "./dist/vue-image-component.common.js",
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --name vue-image-component ./src/components/VueImage.vue",
+    "build-bundle": "vue-cli-service build --target lib --name vue-image-component ./src/components/VueImage.vue",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
