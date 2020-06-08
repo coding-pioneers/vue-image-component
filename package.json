@@ -3,7 +3,7 @@
   "author": "Sascha Steinbrink",
   "homepage": "https://github.com/coding-pioneers/vue-image-component",
   "license": "MIT",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "A Vue component to lazy load and display images",
   "main": "./dist/vue-image-component.common.js",
   "files": [
@@ -20,15 +20,15 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "vue": "^2.6.10",
+    "vue": "^2.6.11",
     "vue-class-component": "^6.0.0",
-    "vue-property-decorator": "^7.0.0"
+    "vue-property-decorator": "^7.3.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.7.0",
-    "@vue/cli-plugin-typescript": "^3.7.0",
-    "@vue/cli-service": "^3.7.0",
-    "typescript": "^3.4.5",
-    "vue-template-compiler": "^2.6.10"
+    "@vue/cli-plugin-babel": "^3.12.1",
+    "@vue/cli-plugin-typescript": "^3.12.1",
+    "@vue/cli-service": "^3.12.1",
+    "typescript": "^3.9.5",
+    "vue-template-compiler": "^2.6.11"
   }
 }
