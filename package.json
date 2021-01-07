@@ -3,7 +3,7 @@
   "author": "Sascha Steinbrink",
   "homepage": "https://github.com/coding-pioneers/vue-image-component",
   "license": "MIT",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "A Vue component to lazy load and display images",
   "main": "./dist/vue-image-component.common.js",
   "files": [
